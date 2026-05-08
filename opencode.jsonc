@@ -1,0 +1,12 @@
+{
+  // Ask before executing bash commands (except 'ls')
+  "confirmBash": true, // Confirm all bash
+
+  // Ask before git commit and push
+  "confirmGitCommit": true,
+  "confirmGitPush": true, // Always ask for commit message before push
+  "bashExcludeList": ["ls"],
+
+  // Ask before changing files
+  "confirmWriteFiles": true
+}
